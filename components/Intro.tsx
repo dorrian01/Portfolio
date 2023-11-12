@@ -41,7 +41,7 @@ export default function Intro() {
             </div>
         </div>
 
-        <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium leading-[1.5rem] sm:text-4xl'
+        <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium leading-[1.5rem] sm:text-4xl'
         initial={{opacity: 0, y: 100}}
         animate={{opacity: 1, y: 0}}
         >
@@ -50,7 +50,7 @@ export default function Intro() {
         <span className="font-bold">3 Months</span> of experience. I enjoy
         building <span className="italic">sites & portfolios</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
-        </motion.p>
+        </motion.h1>
 
         <motion.div className='flex  flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
         initial={{opacity: 0, y: 100}}
